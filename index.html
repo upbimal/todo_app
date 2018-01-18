@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<title>My To do List App</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid text-center">
+
+	<h1>My ToDo plan</h1>
+	<input type="text" id="userinput" class="form-control" placeholder="What's Now ??" onkeydown="return searchKeyPress(event);">
+	<button class="btn btn-success" id="add">Add</button>
+	<button class="btn btn-danger" id="removeall">Remove</button>
+	<ul id="list"></ul>
+
+</div>
+
+
+
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

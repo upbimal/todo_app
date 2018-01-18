@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
+*{
+	padding: 0;
+	margin: 0;
+	background-color: beige;
+	font-family: 'Boogaloo', cursive;
+}
+h1{
+	margin: 40px;
+	font-size: 40px;
+}
+#userinput{
+	width: 350px;
+	height: 45px;
+	display: inline-block;
+	font-size: 20px;
+}
+.btn{
+	margin: 40px 5px;
+	height: 45px;
+	margin-top: 30px;
+
+}
+
+.form-control{
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none; 
+}
